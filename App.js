@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import Login from './src/Pages/Login';
 import Registrar from './src/Pages/Registrar';
 import EsqueciSenha from './src/Pages/EsqueciSenha';
-import Filme from './src/Pages/Cards';
+import Filme from './src/Pages/ListPage';
 
 const Stack = createStackNavigator();
 
