@@ -58,14 +58,7 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         marginBottom: 6,
     },
-    inputConfirmarSenha: {
-        height: 30,
-        padding: 5,
-        color: 'white',
-        borderWidth: 1,
-        borderColor: 'white',
-        borderRadius: 4,
-    },
+   
     viewConfirmar:{
         padding: 5,
     },

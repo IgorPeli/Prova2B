@@ -3,7 +3,7 @@ import styles from "./style";
 import { Link } from "@react-navigation/native";
 
 
-export default function ForgotPassword(){
+export default function EsqueciSenha(){
     return(
         <SafeAreaView style={styles.container}>
             <View style={styles.viewImg}>
@@ -16,7 +16,7 @@ export default function ForgotPassword(){
                 <TextInput style={styles.inputEmail} placeholder='Email'/>
                 <TextInput style={styles.inputSenha} placeholder='Senha Antiga'/>
                 <TextInput style={styles.inputSenha} placeholder='Nova Senha'/>
-                <TextInput style={styles.inputSenhaNovamente} placeholder='Repita sua nova senha'/>
+                <TextInput style={styles.inputSenha} placeholder='Repita sua nova senha'/>
             </View>
             <View style={styles.viewConfirmar}>
                 <Link style={styles.btnConfirmar} to={{screen: "MoviesPage"}}>Confirmar</Link>

@@ -15,7 +15,7 @@ export default function Registrar(){
                 <TextInput style={styles.inputNome} placeholder='Nome Completo'/>
                 <TextInput style={styles.inputEmail} placeholder='Email'/>
                 <TextInput style={styles.inputSenha} placeholder='Senha'/>
-                <TextInput style={styles.inputConfirmarSenha} placeholder='Confirmar Senha'/>
+                <TextInput style={styles.inputSenha} placeholder='Confirmar Senha'/>
             </View>
             <View style={styles.viewConfirmar}>
                 <Link style={styles.btnConfirmar} to={{screen: "MoviesPage"}}>Registrar-se</Link>
