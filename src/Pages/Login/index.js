@@ -12,7 +12,7 @@ export default function Login(){
                 />
             </View>
             <View style={styles.inputs}>
-                <TextInput style={styles.inputEmail} placeholder='Email'/>
+                <TextInput style={styles.inputEmail} placeholder='Login/Email'/>
                 <TextInput style={styles.inputSenha} placeholder='Senha'/>
             </View>
             <View style={styles.viewConfirmar}>

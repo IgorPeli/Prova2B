@@ -13,7 +13,7 @@ export default function EsqueciSenha(){
                 />
             </View>
             <View style={styles.inputs}>
-                <TextInput style={styles.inputEmail} placeholder='Email'/>
+                <TextInput style={styles.inputEmail} placeholder='Login/Email'/>
                 <TextInput style={styles.inputSenha} placeholder='Senha Antiga'/>
                 <TextInput style={styles.inputSenha} placeholder='Nova Senha'/>
                 <TextInput style={styles.inputSenha} placeholder='Repita sua nova senha'/>

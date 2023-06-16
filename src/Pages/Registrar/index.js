@@ -13,6 +13,7 @@ export default function Registrar(){
             </View>
             <View style={styles.inputs}>
                 <TextInput style={styles.inputNome} placeholder='Nome Completo'/>
+                <TextInput style={styles.inputNome} placeholder='Crie o nome de seu usúario'/>
                 <TextInput style={styles.inputEmail} placeholder='Email'/>
                 <TextInput style={styles.inputSenha} placeholder='Senha'/>
                 <TextInput style={styles.inputSenha} placeholder='Confirmar Senha'/>
