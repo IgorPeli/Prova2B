@@ -16,11 +16,11 @@ export default function Login(){
                 <TextInput style={styles.inputSenha} placeholder='Senha'/>
             </View>
             <View style={styles.viewConfirmar}>
-                <Link style={styles.btnConfirmar} to={{screen: "RGPlist"}}>Entrar</Link>
+                <Link style={styles.btnConfirmar} to={{screen: "RPGCards"}}>Entrar</Link>
             </View>
             <View style={styles.viewLink}>
-                <Link style={styles.link} to={{screen: "Register"}}>Registre-se</Link>
-                <Link style={styles.link} to={{screen: "ForgotPassword"}}>Esqueci a senha</Link>
+                <Link style={styles.link} to={{screen: "pRegistrar"}}>Registre-se</Link>
+                <Link style={styles.link} to={{screen: "pEsqueciSenha"}}>Esqueci a senha</Link>
             </View>
         </SafeAreaView>
     )

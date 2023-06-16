@@ -19,7 +19,7 @@ export default function Registrar(){
                 <TextInput style={styles.inputSenha} placeholder='Confirmar Senha'/>
             </View>
             <View style={styles.viewConfirmar}>
-                <Link style={styles.btnConfirmar} to={{screen: "MoviesPage"}}>Registrar-se</Link>
+                <Link style={styles.btnConfirmar} to={{screen: "RPGCards"}}>Registrar-se</Link>
             </View>
             <View style={styles.viewLink}>
                 <Link style={styles.link} to={{screen: "Login"}}>Volte a pagina inicial</Link>

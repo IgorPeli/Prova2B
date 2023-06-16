@@ -12,9 +12,9 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name= "Login" component={Login} options={{headerShown: false}}/>
-        <Stack.Screen name= "Register" component={Registrar} options={{headerShown: false}}/>
-        <Stack.Screen name= "ForgotPassword" component={EsqueciSenha} options={{headerShown: false}}/>
-        <Stack.Screen name= "RGPlist" component={Filme}/>
+        <Stack.Screen name= "pRegistrar" component={Registrar} options={{headerShown: false}}/>
+        <Stack.Screen name= "pEsqueciSenha" component={EsqueciSenha} options={{headerShown: false}}/>
+        <Stack.Screen name= "RPGCards" component={Filme}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

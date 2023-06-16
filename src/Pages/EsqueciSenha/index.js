@@ -19,7 +19,7 @@ export default function EsqueciSenha(){
                 <TextInput style={styles.inputSenha} placeholder='Repita sua nova senha'/>
             </View>
             <View style={styles.viewConfirmar}>
-                <Link style={styles.btnConfirmar} to={{screen: "MoviesPage"}}>Confirmar</Link>
+                <Link style={styles.btnConfirmar} to={{screen: "RPGCards"}}>Confirmar</Link>
             </View>
             <View style={styles.viewLink}>
                 <Link style={styles.link} to={{screen: "Login"}}>Volar a página inicial</Link>

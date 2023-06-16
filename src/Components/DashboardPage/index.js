@@ -27,12 +27,12 @@ const styles = StyleSheet.create({
         margin: 3,
         alignItems: 'center',
         justifyContent: 'flex-start',
-        backgroundColor: 'red'
+        backgroundColor: 'black'
     },
     viewImg: {
         width: '30%',
         height: 150,
-        backgroundColor: 'red'
+        backgroundColor: 'black'
     },
     img: {
         width: '100%',
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         color: 'white',
         fontWeight: 'bold',
-        marginBottom: 5
+        marginBottom: 5,
     }, 
     sinopse: {
         fontSize: 14,
@@ -59,12 +59,22 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color: 'white',
         fontWeight: 'bold',
-        marginBottom: 5
-        
+        marginBottom: 5  
     },
     btn: {
         padding: 10,
-        backgroundColor: 'black'
+        backgroundColor: 'white',
+  
+    },
+    defesa: {
+        color: 'white'
+    },
+    ataque: {
+        color: 'white'
+    },
+    especial: {
+        color: 'white'
     }
+
 });
 
